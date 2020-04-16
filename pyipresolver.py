@@ -13,7 +13,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 new_content = ''
-f = open("url.txt", "r")
+f = open("list.txt", "r")
 os.system("mkdir info host_list")
 lines = f.readlines()
 f.close()

@@ -29,7 +29,7 @@ cd pyipresolver
 
 ### Add new samples
 ```diff
-- You can add URLs in url.txt
+- You can add URLs or IP in url.txt
 ```
 ## Execute Python script :
 
@@ -53,6 +53,7 @@ re | Combination of ```rm``` and ```run``` commands | ```rm -rf host_list info &
 
 - Generating a file with the IPs of the URL
 - Generating a host file
+- Printing the Network Status of the given IP or URL
 
 
 
