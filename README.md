@@ -27,10 +27,14 @@ git clone "https://github.com/valentinmne/pyipresolver.git"
 cd pyipresolver
 ```
 
+### Add new samples
+```diff
+- You can add URLs in url.txt
+```
 ## Execute Python script :
 
 ```
-python3 host.py
+python3 pyipresolver.ip
 ```
 
 ### With Makefile
