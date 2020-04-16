@@ -56,5 +56,5 @@ except IOError as e:
 with open("host_list/simple_hosts.txt", "r") as lines:
     with open("info/basic_info.txt", "w") as w:
         for l in lines:
-            out = Popen("host " + l, shell=True, stdout=PIPE, stderr=PIPE, close_fds=(sys.platform != 'win32'))
+            out = Popen("dig " + l, shell=True, stdout=PIPE, stderr=PIPE, close_fds=(sys.platform != 'win32'))
             w.write('\n' + out.stdout.read().decode("utf8"))
